@@ -1,4 +1,5 @@
-﻿using IPA;
+﻿using BeatSaberWrapped.Installers;
+using IPA;
 using IPA.Config;
 using IPA.Config.Stores;
 using SiraUtil.Zenject;
@@ -29,6 +30,7 @@ namespace BeatSaberWrapped
         {
             Instance = this;
             Plugin.Log = logger;
+            zenjector.OnMenu<WrappedMenuInstaller>();
         }
 
         #region Disableable

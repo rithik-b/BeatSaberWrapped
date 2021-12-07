@@ -1,10 +1,9 @@
 ﻿using Hitbloq.Entries;
 using SiraUtil;
-using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace BeatSaberWrapped.Source
+namespace BeatSaberWrapped.Sources
 {
     internal class HitbloqDataSource
     {

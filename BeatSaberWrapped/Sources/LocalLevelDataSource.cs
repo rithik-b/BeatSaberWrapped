@@ -2,7 +2,7 @@
 using SongCore;
 using System.Collections.Generic;
 
-namespace BeatSaberWrapped.Source
+namespace BeatSaberWrapped.Sources
 {
     internal class LocalLevelDataSource
     {
