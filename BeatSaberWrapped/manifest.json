@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "BeatSaberWrapped",
+  "name": "BeatSaberWrapped",
+  "author": "PixelBoom",
+  "version": "1.0.0",
+  "description": "A retrospective of your year in Beat Saber.",
+  "gameVersion": "1.18.0",
+    "dependsOn": {
+        "BSIPA": "^4.2.0",
+        "BeatSaberMarkupLanguage": "^1.5.11",
+        "SiraUtil": "^2.5.8"
+    }
+}
